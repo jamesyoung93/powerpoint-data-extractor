@@ -1,0 +1,684 @@
+{
+  "schema_version": "1.1",
+  "extractor_version": "1.1.0",
+  "source_file": "sample_side_by_side.pptx",
+  "source_sha256": "16d874660f8b89c3d34203dab016f0e5b43b567407773cf99a75a16ec419a5ba",
+  "extracted_at_utc": "2000-01-01T00:00:00+00:00",
+  "slide_count": 1,
+  "records": [
+    {
+      "record_id": "7a7dac70d0b807a916050718",
+      "source_file": "sample_side_by_side.pptx",
+      "source_sha256": "16d874660f8b89c3d34203dab016f0e5b43b567407773cf99a75a16ec419a5ba",
+      "slide_number": 1,
+      "slide_title": "Regional performance",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "slide_text",
+      "source_part": "ppt/slides/slide1.xml",
+      "shape_id": null,
+      "shape_name": "",
+      "chart_index_on_slide": null,
+      "chart_count_on_slide": 2,
+      "bounding_box": null,
+      "position_on_slide": "unknown",
+      "what_data_represents": "Regional performance",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Regional performance",
+        "slide_text": "Regional performance\nEast revenue\nWest revenue",
+        "slide_text_scope": "Shared slide context; not necessarily specific to this chart/object."
+      },
+      "status": "extracted",
+      "warnings": [],
+      "data": {
+        "text": "Regional performance\nEast revenue\nWest revenue"
+      },
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "not_assessed",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "9d6ec4144af922edcc9c21b6",
+      "source_file": "sample_side_by_side.pptx",
+      "source_sha256": "16d874660f8b89c3d34203dab016f0e5b43b567407773cf99a75a16ec419a5ba",
+      "slide_number": 1,
+      "slide_title": "Regional performance",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "chart",
+      "source_part": "ppt/charts/chart1.xml",
+      "shape_id": "4",
+      "shape_name": "Chart 3",
+      "chart_index_on_slide": 1,
+      "chart_count_on_slide": 2,
+      "bounding_box": {
+        "x": 457200.0,
+        "y": 1828800.0,
+        "width": 4114800.0,
+        "height": 3200400.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "middle-left",
+      "what_data_represents": "Chart 1 of 2 (middle-left): 'Regional performance' on slide 1; nearby label candidate (unverified): East revenue; series: Sales",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Regional performance",
+        "slide_text": "Regional performance\nEast revenue\nWest revenue",
+        "nearby_text_candidates": [
+          {
+            "text": "East revenue",
+            "shape_id": "3",
+            "bounding_box": {
+              "x": 457200.0,
+              "y": 1097280.0,
+              "width": 4114800.0,
+              "height": 457200.0,
+              "unit": "EMU"
+            },
+            "vertical_gap_emu": 274320.0,
+            "horizontal_overlap_fraction": 1.0,
+            "association": "unverified_proximity_candidate"
+          }
+        ],
+        "slide_text_scope": "Shared slide context; not necessarily specific to this chart/object."
+      },
+      "status": "saved_values",
+      "warnings": [
+        "Chart values are saved caches/literals and may be stale relative to the workbook. Raw numeric text is retained."
+      ],
+      "data": {
+        "chart_title": "",
+        "chart_types": [
+          "barChart"
+        ],
+        "axes": [
+          {
+            "axis_type": "catAx",
+            "axis_id": "-2068027336",
+            "title": "",
+            "position": "b",
+            "number_format": null
+          },
+          {
+            "axis_type": "valAx",
+            "axis_id": "-2113994440",
+            "title": "",
+            "position": "l",
+            "number_format": null
+          }
+        ],
+        "series": [
+          {
+            "series_number": 1,
+            "series_name": "Sales",
+            "series_index": "0",
+            "series_order": "0",
+            "chart_type": "barChart",
+            "axis_ids": [
+              "-2068027336",
+              "-2113994440"
+            ],
+            "sources": {
+              "tx": {
+                "formula": "Sheet1!$B$1",
+                "number_format": null,
+                "declared_count": 1,
+                "present": true
+              },
+              "cat": {
+                "formula": "Sheet1!$A$2:$A$3",
+                "number_format": null,
+                "declared_count": 2,
+                "present": true
+              },
+              "val": {
+                "formula": "Sheet1!$B$2:$B$3",
+                "number_format": "General",
+                "declared_count": 2,
+                "present": true
+              },
+              "xVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "yVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "bubbleSize": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "series_number": 1,
+            "series_name": "Sales",
+            "chart_type": "barChart",
+            "point_index": 0,
+            "category": "Q1",
+            "category_raw": "Q1",
+            "value": 10,
+            "value_raw": "10",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 1,
+            "series_name": "Sales",
+            "chart_type": "barChart",
+            "point_index": 1,
+            "category": "Q2",
+            "category_raw": "Q2",
+            "value": 20,
+            "value_raw": "20",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          }
+        ],
+        "category_level_order": "XML order (innermost first); omitted hierarchy labels remain null.",
+        "date_system": "1900",
+        "plot_visible_only": null,
+        "display_blanks_as": "gap"
+      },
+      "is_uncertain": true,
+      "needs_review": true,
+      "uncertainty_reasons": [
+        {
+          "code": "MULTIPLE_CHARTS_WITHOUT_LOCAL_LABEL",
+          "dimension": "meaning",
+          "detail": "This chart has no intrinsic title/alternative label. The slide title alone cannot establish this chart's meaning."
+        },
+        {
+          "code": "NEARBY_LABEL_UNVERIFIED",
+          "dimension": "meaning",
+          "detail": "Nearby text is a candidate label; spatial proximity does not prove it belongs to this chart."
+        },
+        {
+          "code": "DUPLICATE_CHART_LABELS",
+          "dimension": "meaning",
+          "detail": "Multiple charts on this slide have identical titles/series/axis labels. IDs and positions distinguish the objects, but the labels do not establish their different meanings."
+        }
+      ],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "ambiguous",
+        "source_freshness": "unverified_saved_values",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      },
+      "duplicate_chart_labels_on_slide": true
+    },
+    {
+      "record_id": "2c313f44b18f86a76cf4a5e3",
+      "source_file": "sample_side_by_side.pptx",
+      "source_sha256": "16d874660f8b89c3d34203dab016f0e5b43b567407773cf99a75a16ec419a5ba",
+      "slide_number": 1,
+      "slide_title": "Regional performance",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "chart",
+      "source_part": "ppt/charts/chart2.xml",
+      "shape_id": "6",
+      "shape_name": "Chart 5",
+      "chart_index_on_slide": 2,
+      "chart_count_on_slide": 2,
+      "bounding_box": {
+        "x": 5943600.0,
+        "y": 1828800.0,
+        "width": 4114800.0,
+        "height": 3200400.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "middle-right",
+      "what_data_represents": "Chart 2 of 2 (middle-right): 'Regional performance' on slide 1; nearby label candidate (unverified): West revenue; series: Sales",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Regional performance",
+        "slide_text": "Regional performance\nEast revenue\nWest revenue",
+        "nearby_text_candidates": [
+          {
+            "text": "West revenue",
+            "shape_id": "5",
+            "bounding_box": {
+              "x": 5943600.0,
+              "y": 1097280.0,
+              "width": 4114800.0,
+              "height": 457200.0,
+              "unit": "EMU"
+            },
+            "vertical_gap_emu": 274320.0,
+            "horizontal_overlap_fraction": 1.0,
+            "association": "unverified_proximity_candidate"
+          }
+        ],
+        "slide_text_scope": "Shared slide context; not necessarily specific to this chart/object."
+      },
+      "status": "saved_values",
+      "warnings": [
+        "Chart values are saved caches/literals and may be stale relative to the workbook. Raw numeric text is retained."
+      ],
+      "data": {
+        "chart_title": "",
+        "chart_types": [
+          "barChart"
+        ],
+        "axes": [
+          {
+            "axis_type": "catAx",
+            "axis_id": "-2068027336",
+            "title": "",
+            "position": "b",
+            "number_format": null
+          },
+          {
+            "axis_type": "valAx",
+            "axis_id": "-2113994440",
+            "title": "",
+            "position": "l",
+            "number_format": null
+          }
+        ],
+        "series": [
+          {
+            "series_number": 1,
+            "series_name": "Sales",
+            "series_index": "0",
+            "series_order": "0",
+            "chart_type": "barChart",
+            "axis_ids": [
+              "-2068027336",
+              "-2113994440"
+            ],
+            "sources": {
+              "tx": {
+                "formula": "Sheet1!$B$1",
+                "number_format": null,
+                "declared_count": 1,
+                "present": true
+              },
+              "cat": {
+                "formula": "Sheet1!$A$2:$A$3",
+                "number_format": null,
+                "declared_count": 2,
+                "present": true
+              },
+              "val": {
+                "formula": "Sheet1!$B$2:$B$3",
+                "number_format": "General",
+                "declared_count": 2,
+                "present": true
+              },
+              "xVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "yVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "bubbleSize": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "series_number": 1,
+            "series_name": "Sales",
+            "chart_type": "barChart",
+            "point_index": 0,
+            "category": "Q1",
+            "category_raw": "Q1",
+            "value": 110,
+            "value_raw": "110",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 1,
+            "series_name": "Sales",
+            "chart_type": "barChart",
+            "point_index": 1,
+            "category": "Q2",
+            "category_raw": "Q2",
+            "value": 120,
+            "value_raw": "120",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          }
+        ],
+        "category_level_order": "XML order (innermost first); omitted hierarchy labels remain null.",
+        "date_system": "1900",
+        "plot_visible_only": null,
+        "display_blanks_as": "gap"
+      },
+      "is_uncertain": true,
+      "needs_review": true,
+      "uncertainty_reasons": [
+        {
+          "code": "MULTIPLE_CHARTS_WITHOUT_LOCAL_LABEL",
+          "dimension": "meaning",
+          "detail": "This chart has no intrinsic title/alternative label. The slide title alone cannot establish this chart's meaning."
+        },
+        {
+          "code": "NEARBY_LABEL_UNVERIFIED",
+          "dimension": "meaning",
+          "detail": "Nearby text is a candidate label; spatial proximity does not prove it belongs to this chart."
+        },
+        {
+          "code": "DUPLICATE_CHART_LABELS",
+          "dimension": "meaning",
+          "detail": "Multiple charts on this slide have identical titles/series/axis labels. IDs and positions distinguish the objects, but the labels do not establish their different meanings."
+        }
+      ],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "ambiguous",
+        "source_freshness": "unverified_saved_values",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      },
+      "duplicate_chart_labels_on_slide": true
+    },
+    {
+      "record_id": "a9140914f3e805baaec62ece",
+      "source_file": "sample_side_by_side.pptx",
+      "source_sha256": "16d874660f8b89c3d34203dab016f0e5b43b567407773cf99a75a16ec419a5ba",
+      "slide_number": 1,
+      "slide_title": "Regional performance",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "embedded_worksheet",
+      "source_part": "ppt/embeddings/Microsoft_Excel_Sheet1.xlsx",
+      "shape_id": "4",
+      "shape_name": "Chart 3",
+      "chart_index_on_slide": 1,
+      "chart_count_on_slide": 2,
+      "bounding_box": {
+        "x": 457200.0,
+        "y": 1828800.0,
+        "width": 4114800.0,
+        "height": 3200400.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "middle-left",
+      "what_data_represents": "Embedded worksheet 'Sheet1' referenced by slide(s) 1; label examples: Sales, Q1, Q2",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Regional performance"
+      },
+      "status": "extracted",
+      "warnings": [
+        "Full stored worksheet range; may include data not plotted or visible on the slide. Header semantics are not assumed."
+      ],
+      "data": {
+        "range": "A1:B3",
+        "first_excel_row": 1,
+        "columns": [
+          "A",
+          "B"
+        ],
+        "rows": [
+          [
+            null,
+            "Sales"
+          ],
+          [
+            "Q1",
+            10
+          ],
+          [
+            "Q2",
+            20
+          ]
+        ],
+        "formulas": [],
+        "cell_metadata": [
+          {
+            "cell": "B2",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "10"
+          },
+          {
+            "cell": "B3",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "20"
+          }
+        ],
+        "label_candidates": [
+          {
+            "cell": "B1",
+            "text": "Sales"
+          },
+          {
+            "cell": "A2",
+            "text": "Q1"
+          },
+          {
+            "cell": "A3",
+            "text": "Q2"
+          }
+        ],
+        "merged_ranges": [],
+        "hidden_rows": [],
+        "hidden_column_ranges": [],
+        "sheet_name": "Sheet1",
+        "sheet_state": "visible",
+        "excel_epoch": "1899-12-30T00:00:00",
+        "source_references": [
+          {
+            "slide_number": 1,
+            "slide_title": "Regional performance",
+            "hidden_slide": false,
+            "slide_part": "ppt/slides/slide1.xml",
+            "shape_id": "4",
+            "shape_name": "Chart 3",
+            "chart_index_on_slide": 1,
+            "chart_count_on_slide": 2,
+            "bounding_box": {
+              "x": 457200.0,
+              "y": 1828800.0,
+              "width": 4114800.0,
+              "height": 3200400.0,
+              "unit": "EMU"
+            },
+            "position_on_slide": "middle-left",
+            "referencing_part": "ppt/charts/chart1.xml",
+            "relationship_id": "rId1"
+          }
+        ]
+      },
+      "sheet_name": "Sheet1",
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "source_labels_only",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "e2895a759e957fb8f0f29b3b",
+      "source_file": "sample_side_by_side.pptx",
+      "source_sha256": "16d874660f8b89c3d34203dab016f0e5b43b567407773cf99a75a16ec419a5ba",
+      "slide_number": 1,
+      "slide_title": "Regional performance",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "embedded_worksheet",
+      "source_part": "ppt/embeddings/Microsoft_Excel_Sheet2.xlsx",
+      "shape_id": "6",
+      "shape_name": "Chart 5",
+      "chart_index_on_slide": 2,
+      "chart_count_on_slide": 2,
+      "bounding_box": {
+        "x": 5943600.0,
+        "y": 1828800.0,
+        "width": 4114800.0,
+        "height": 3200400.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "middle-right",
+      "what_data_represents": "Embedded worksheet 'Sheet1' referenced by slide(s) 1; label examples: Sales, Q1, Q2",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Regional performance"
+      },
+      "status": "extracted",
+      "warnings": [
+        "Full stored worksheet range; may include data not plotted or visible on the slide. Header semantics are not assumed."
+      ],
+      "data": {
+        "range": "A1:B3",
+        "first_excel_row": 1,
+        "columns": [
+          "A",
+          "B"
+        ],
+        "rows": [
+          [
+            null,
+            "Sales"
+          ],
+          [
+            "Q1",
+            110
+          ],
+          [
+            "Q2",
+            120
+          ]
+        ],
+        "formulas": [],
+        "cell_metadata": [
+          {
+            "cell": "B2",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "110"
+          },
+          {
+            "cell": "B3",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "120"
+          }
+        ],
+        "label_candidates": [
+          {
+            "cell": "B1",
+            "text": "Sales"
+          },
+          {
+            "cell": "A2",
+            "text": "Q1"
+          },
+          {
+            "cell": "A3",
+            "text": "Q2"
+          }
+        ],
+        "merged_ranges": [],
+        "hidden_rows": [],
+        "hidden_column_ranges": [],
+        "sheet_name": "Sheet1",
+        "sheet_state": "visible",
+        "excel_epoch": "1899-12-30T00:00:00",
+        "source_references": [
+          {
+            "slide_number": 1,
+            "slide_title": "Regional performance",
+            "hidden_slide": false,
+            "slide_part": "ppt/slides/slide1.xml",
+            "shape_id": "6",
+            "shape_name": "Chart 5",
+            "chart_index_on_slide": 2,
+            "chart_count_on_slide": 2,
+            "bounding_box": {
+              "x": 5943600.0,
+              "y": 1828800.0,
+              "width": 4114800.0,
+              "height": 3200400.0,
+              "unit": "EMU"
+            },
+            "position_on_slide": "middle-right",
+            "referencing_part": "ppt/charts/chart2.xml",
+            "relationship_id": "rId1"
+          }
+        ]
+      },
+      "sheet_name": "Sheet1",
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "source_labels_only",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    }
+  ],
+  "warnings": [],
+  "scope": "Slide text, native tables, classic chart caches, embedded OOXML worksheet values/formulas, notes, SmartArt labels and image references. No rendering/OCR, master/layout text, comments, or exhaustive metadata inventory.",
+  "slide_size_emu": {
+    "width": 10972800,
+    "height": 6858000
+  },
+  "record_count": 5,
+  "review_record_count": 2,
+  "uncertain_record_count": 2
+}

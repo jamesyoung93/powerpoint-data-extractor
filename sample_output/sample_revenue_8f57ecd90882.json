@@ -1,0 +1,644 @@
+{
+  "schema_version": "1.1",
+  "extractor_version": "1.1.0",
+  "source_file": "sample_revenue.pptx",
+  "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+  "extracted_at_utc": "2000-01-01T00:00:00+00:00",
+  "slide_count": 2,
+  "records": [
+    {
+      "record_id": "b5ef2cd16ab1a5937f8df2ee",
+      "source_file": "sample_revenue.pptx",
+      "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+      "slide_number": 1,
+      "slide_title": "Quarterly product revenue (USD millions)",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "slide_text",
+      "source_part": "ppt/slides/slide1.xml",
+      "shape_id": null,
+      "shape_name": "",
+      "chart_index_on_slide": null,
+      "chart_count_on_slide": 1,
+      "bounding_box": null,
+      "position_on_slide": "unknown",
+      "what_data_represents": "Quarterly product revenue (USD millions)",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Quarterly product revenue (USD millions)",
+        "slide_text": "Quarterly product revenue (USD millions)"
+      },
+      "status": "extracted",
+      "warnings": [],
+      "data": {
+        "text": "Quarterly product revenue (USD millions)"
+      },
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "not_assessed",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "40618182efb12e95781be32c",
+      "source_file": "sample_revenue.pptx",
+      "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+      "slide_number": 1,
+      "slide_title": "Quarterly product revenue (USD millions)",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "chart",
+      "source_part": "ppt/charts/chart1.xml",
+      "shape_id": "3",
+      "shape_name": "Chart 2",
+      "chart_index_on_slide": 1,
+      "chart_count_on_slide": 1,
+      "bounding_box": {
+        "x": 914400.0,
+        "y": 1188720.0,
+        "width": 7315200.0,
+        "height": 3657600.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "middle-center",
+      "what_data_represents": "Chart 1 of 1 (middle-center): 'Revenue by quarter' on slide 1; series: Product A, Product B; axes: USD millions",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Quarterly product revenue (USD millions)",
+        "slide_text": "Quarterly product revenue (USD millions)"
+      },
+      "status": "saved_values",
+      "warnings": [
+        "Chart values are saved caches/literals and may be stale relative to the workbook. Raw numeric text is retained."
+      ],
+      "data": {
+        "chart_title": "Revenue by quarter",
+        "chart_types": [
+          "barChart"
+        ],
+        "axes": [
+          {
+            "axis_type": "catAx",
+            "axis_id": "-2068027336",
+            "title": "",
+            "position": "b",
+            "number_format": null
+          },
+          {
+            "axis_type": "valAx",
+            "axis_id": "-2113994440",
+            "title": "USD millions",
+            "position": "l",
+            "number_format": null
+          }
+        ],
+        "series": [
+          {
+            "series_number": 1,
+            "series_name": "Product A",
+            "series_index": "0",
+            "series_order": "0",
+            "chart_type": "barChart",
+            "axis_ids": [
+              "-2068027336",
+              "-2113994440"
+            ],
+            "sources": {
+              "tx": {
+                "formula": "Sheet1!$B$1",
+                "number_format": null,
+                "declared_count": 1,
+                "present": true
+              },
+              "cat": {
+                "formula": "Sheet1!$A$2:$A$4",
+                "number_format": null,
+                "declared_count": 3,
+                "present": true
+              },
+              "val": {
+                "formula": "Sheet1!$B$2:$B$4",
+                "number_format": "General",
+                "declared_count": 3,
+                "present": true
+              },
+              "xVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "yVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "bubbleSize": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              }
+            },
+            "warnings": []
+          },
+          {
+            "series_number": 2,
+            "series_name": "Product B",
+            "series_index": "1",
+            "series_order": "1",
+            "chart_type": "barChart",
+            "axis_ids": [
+              "-2068027336",
+              "-2113994440"
+            ],
+            "sources": {
+              "tx": {
+                "formula": "Sheet1!$C$1",
+                "number_format": null,
+                "declared_count": 1,
+                "present": true
+              },
+              "cat": {
+                "formula": "Sheet1!$A$2:$A$4",
+                "number_format": null,
+                "declared_count": 3,
+                "present": true
+              },
+              "val": {
+                "formula": "Sheet1!$C$2:$C$4",
+                "number_format": "General",
+                "declared_count": 3,
+                "present": true
+              },
+              "xVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "yVal": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              },
+              "bubbleSize": {
+                "formula": null,
+                "number_format": null,
+                "declared_count": null,
+                "present": false
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "rows": [
+          {
+            "series_number": 1,
+            "series_name": "Product A",
+            "chart_type": "barChart",
+            "point_index": 0,
+            "category": "Q1",
+            "category_raw": "Q1",
+            "value": 12,
+            "value_raw": "12",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 1,
+            "series_name": "Product A",
+            "chart_type": "barChart",
+            "point_index": 1,
+            "category": "Q2",
+            "category_raw": "Q2",
+            "value": 15,
+            "value_raw": "15",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 1,
+            "series_name": "Product A",
+            "chart_type": "barChart",
+            "point_index": 2,
+            "category": "Q3",
+            "category_raw": "Q3",
+            "value": 18,
+            "value_raw": "18",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 2,
+            "series_name": "Product B",
+            "chart_type": "barChart",
+            "point_index": 0,
+            "category": "Q1",
+            "category_raw": "Q1",
+            "value": 10,
+            "value_raw": "10",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 2,
+            "series_name": "Product B",
+            "chart_type": "barChart",
+            "point_index": 1,
+            "category": "Q2",
+            "category_raw": "Q2",
+            "value": 11,
+            "value_raw": "11",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          },
+          {
+            "series_number": 2,
+            "series_name": "Product B",
+            "chart_type": "barChart",
+            "point_index": 2,
+            "category": "Q3",
+            "category_raw": "Q3",
+            "value": 13,
+            "value_raw": "13",
+            "x": null,
+            "x_raw": null,
+            "y": null,
+            "y_raw": null,
+            "bubble_size": null,
+            "bubble_size_raw": null,
+            "category_levels": []
+          }
+        ],
+        "category_level_order": "XML order (innermost first); omitted hierarchy labels remain null.",
+        "date_system": "1900",
+        "plot_visible_only": null,
+        "display_blanks_as": "gap"
+      },
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "source_labeled",
+        "source_freshness": "unverified_saved_values",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "f62bc9593372008af7b28a04",
+      "source_file": "sample_revenue.pptx",
+      "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+      "slide_number": 1,
+      "slide_title": "Quarterly product revenue (USD millions)",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "speaker_notes",
+      "source_part": "ppt/notesSlides/notesSlide1.xml",
+      "shape_id": null,
+      "shape_name": "",
+      "chart_index_on_slide": null,
+      "chart_count_on_slide": 1,
+      "bounding_box": null,
+      "position_on_slide": "unknown",
+      "what_data_represents": "Speaker notes for 'Quarterly product revenue (USD millions)'",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Quarterly product revenue (USD millions)",
+        "slide_text": "Quarterly product revenue (USD millions)"
+      },
+      "status": "extracted",
+      "warnings": [],
+      "data": {
+        "text": "Illustrative data only. Calendar quarters."
+      },
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "not_assessed",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "addd0461bfbed1ae052ab502",
+      "source_file": "sample_revenue.pptx",
+      "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+      "slide_number": 2,
+      "slide_title": "Territory results",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide2.xml",
+      "kind": "slide_text",
+      "source_part": "ppt/slides/slide2.xml",
+      "shape_id": null,
+      "shape_name": "",
+      "chart_index_on_slide": null,
+      "chart_count_on_slide": 0,
+      "bounding_box": null,
+      "position_on_slide": "unknown",
+      "what_data_represents": "Territory results",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Territory results",
+        "slide_text": "Territory results"
+      },
+      "status": "extracted",
+      "warnings": [],
+      "data": {
+        "text": "Territory results"
+      },
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "not_assessed",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "6c1fc148ceb0fd04e71232f1",
+      "source_file": "sample_revenue.pptx",
+      "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+      "slide_number": 2,
+      "slide_title": "Territory results",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide2.xml",
+      "kind": "table",
+      "source_part": "ppt/slides/slide2.xml",
+      "shape_id": "3",
+      "shape_name": "Table 2",
+      "chart_index_on_slide": null,
+      "chart_count_on_slide": 0,
+      "bounding_box": {
+        "x": 914400.0,
+        "y": 1371600.0,
+        "width": 7315200.0,
+        "height": 1828800.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "top-center",
+      "what_data_represents": "Table on 'Territory results'; first row: Region, Revenue, Growth",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Territory results",
+        "slide_text": "Territory results"
+      },
+      "status": "extracted",
+      "warnings": [],
+      "data": {
+        "columns": [
+          "column_1",
+          "column_2",
+          "column_3"
+        ],
+        "rows": [
+          [
+            "Region",
+            "Revenue",
+            "Growth"
+          ],
+          [
+            "East",
+            "$12.5M",
+            "8%"
+          ],
+          [
+            "West",
+            "$9M",
+            "6%"
+          ]
+        ],
+        "first_row_text": [
+          "Region",
+          "Revenue",
+          "Growth"
+        ],
+        "first_row_styled_as_header": true,
+        "merge_metadata": [],
+        "value_type": "text_as_stored; percentages/currency are not coerced"
+      },
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "source_labels_only",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    },
+    {
+      "record_id": "980c4c1bf6fcf61f979c15d8",
+      "source_file": "sample_revenue.pptx",
+      "source_sha256": "8f57ecd9088248674509f728236593005b678918fd77c6f821eb4a93c50ed822",
+      "slide_number": 1,
+      "slide_title": "Quarterly product revenue (USD millions)",
+      "hidden_slide": false,
+      "slide_part": "ppt/slides/slide1.xml",
+      "kind": "embedded_worksheet",
+      "source_part": "ppt/embeddings/Microsoft_Excel_Sheet1.xlsx",
+      "shape_id": "3",
+      "shape_name": "Chart 2",
+      "chart_index_on_slide": 1,
+      "chart_count_on_slide": 1,
+      "bounding_box": {
+        "x": 914400.0,
+        "y": 1188720.0,
+        "width": 7315200.0,
+        "height": 3657600.0,
+        "unit": "EMU"
+      },
+      "position_on_slide": "middle-center",
+      "what_data_represents": "Embedded worksheet 'Sheet1' referenced by slide(s) 1; label examples: Product A, Product B, Q1, Q2, Q3",
+      "description_method": "source_labels_and_context",
+      "description_evidence": {
+        "slide_title": "Quarterly product revenue (USD millions)"
+      },
+      "status": "extracted",
+      "warnings": [
+        "Full stored worksheet range; may include data not plotted or visible on the slide. Header semantics are not assumed."
+      ],
+      "data": {
+        "range": "A1:C4",
+        "first_excel_row": 1,
+        "columns": [
+          "A",
+          "B",
+          "C"
+        ],
+        "rows": [
+          [
+            null,
+            "Product A",
+            "Product B"
+          ],
+          [
+            "Q1",
+            12,
+            10
+          ],
+          [
+            "Q2",
+            15,
+            11
+          ],
+          [
+            "Q3",
+            18,
+            13
+          ]
+        ],
+        "formulas": [],
+        "cell_metadata": [
+          {
+            "cell": "B2",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "12"
+          },
+          {
+            "cell": "C2",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "10"
+          },
+          {
+            "cell": "B3",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "15"
+          },
+          {
+            "cell": "C3",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "11"
+          },
+          {
+            "cell": "B4",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "18"
+          },
+          {
+            "cell": "C4",
+            "data_type": "n",
+            "number_format": "General",
+            "raw_xml_value": "13"
+          }
+        ],
+        "label_candidates": [
+          {
+            "cell": "B1",
+            "text": "Product A"
+          },
+          {
+            "cell": "C1",
+            "text": "Product B"
+          },
+          {
+            "cell": "A2",
+            "text": "Q1"
+          },
+          {
+            "cell": "A3",
+            "text": "Q2"
+          },
+          {
+            "cell": "A4",
+            "text": "Q3"
+          }
+        ],
+        "merged_ranges": [],
+        "hidden_rows": [],
+        "hidden_column_ranges": [],
+        "sheet_name": "Sheet1",
+        "sheet_state": "visible",
+        "excel_epoch": "1899-12-30T00:00:00",
+        "source_references": [
+          {
+            "slide_number": 1,
+            "slide_title": "Quarterly product revenue (USD millions)",
+            "hidden_slide": false,
+            "slide_part": "ppt/slides/slide1.xml",
+            "shape_id": "3",
+            "shape_name": "Chart 2",
+            "chart_index_on_slide": 1,
+            "chart_count_on_slide": 1,
+            "bounding_box": {
+              "x": 914400.0,
+              "y": 1188720.0,
+              "width": 7315200.0,
+              "height": 3657600.0,
+              "unit": "EMU"
+            },
+            "position_on_slide": "middle-center",
+            "referencing_part": "ppt/charts/chart1.xml",
+            "relationship_id": "rId1"
+          }
+        ]
+      },
+      "sheet_name": "Sheet1",
+      "is_uncertain": false,
+      "needs_review": false,
+      "uncertainty_reasons": [],
+      "quality": {
+        "assessment_method": "deterministic_rules_not_calibrated_probability",
+        "data_extraction": "no_detected_issue",
+        "meaning": "source_labels_only",
+        "source_freshness": "not_assessed",
+        "note": "No flag means no listed rule detected a problem; it is not a guarantee of completeness or correctness."
+      }
+    }
+  ],
+  "warnings": [],
+  "scope": "Slide text, native tables, classic chart caches, embedded OOXML worksheet values/formulas, notes, SmartArt labels and image references. No rendering/OCR, master/layout text, comments, or exhaustive metadata inventory.",
+  "slide_size_emu": {
+    "width": 9144000,
+    "height": 6858000
+  },
+  "record_count": 6,
+  "review_record_count": 0,
+  "uncertain_record_count": 0
+}
